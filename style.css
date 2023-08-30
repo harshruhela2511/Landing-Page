@@ -178,8 +178,8 @@ color: white;
     color:brown;
 }
 .coffee-options img{
-    width: 40vw;
-    height: 40vw;
+    width: 20vw;
+    height:20vw;
     filter: drop-shadow(0px 18px 15px black); 
 }
 
@@ -227,7 +227,7 @@ color: white;
     margin-right:1.5vw;
 }
 .reviews div p{
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 .reviews div h4{
 font-size: 2vw;
@@ -247,7 +247,7 @@ color: orange;
     border: 10px solid white;
     position: relative;
     top:-15vw;
-    left: 35%;
+    left: 30%;
     transition: transform 1s;
 }
 
