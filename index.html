@@ -153,7 +153,8 @@ black Coffee</h1>
             <h1>TESTIMONIALS</h1>
             <p>See What Our Customer Says <i class="fa-regular fa-face-smile-beam" style="color: orange;"></i></p>
             <div id="review-outer">
-                <div class="reviews">
+
+                <div class="reviews fade">
                         <img src="Images/review1.jpg" alt="">
                     <div>
                         <p><i class="fa-solid fa-quote-left" style="color: orange;"></i> Consistency is key, and your coffee delivers that in spades. From the first cup to the last, the flavors are consistently bold and satisfying. It's like my own little daily indulgence, and I can't imagine my mornings without it. <i class="fa-solid fa-quote-right" style="color: orange;"></i></p>
@@ -161,7 +162,7 @@ black Coffee</h1>
                     </div>
                 </div>
 
-                <div class="reviews">
+                <div class="reviews fade">
                         <img src="Images/review2.jpg" alt="">
                     <div>
                         <p><i class="fa-solid fa-quote-left" style="color: orange;"></i> As someone who starts every day with a cup of coffee, finding the perfect blend was essential. Your coffee has transformed my morning ritual into a delightful experience. The aroma alone invigorates my senses, and the taste is a comforting embrace. <i class="fa-solid fa-quote-right" style="color: orange;"></i></p>
@@ -169,7 +170,7 @@ black Coffee</h1>
                     </div>
                 </div>
 
-                <div class="reviews">
+                <div class="reviews fade">
                         <img src="Images/review3.jpg" alt="">
                     <div>
                         <p><i class="fa-solid fa-quote-left" style="color: orange;"></i> I've tried coffee from all over, but nothing compares to the rich flavors and smooth textures of the coffee here. Every sip is a journey into a world of unparalleled taste. Highly recommended for anyone who truly appreciates a good cup of coffee. <i class="fa-solid fa-quote-right" style="color: orange;"></i></p>
@@ -178,6 +179,11 @@ black Coffee</h1>
                 </div>
 
             </div>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
         </section>
 
         <section id="contact">
@@ -223,6 +229,27 @@ black Coffee</h1>
                 <p>Copyright<i class='fas fa-copyright'></i>2023 All rights reserved</p>
             </div>
         </footer>
-        
+
+       <script>
+        let slideIndex = 0;
+        showSlides();
+
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("reviews");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+</script>
     </body>
 </html>

@@ -164,15 +164,16 @@ color: white;
 .coffee-options-content h1{
     font-family: sans-serif;
     margin: 1vw;
+    font-size: 3vw;
 }
 .coffee-options-content p{
     font-family:Arial, Helvetica, sans-serif;
     margin: 1vw;
+    font-size: 2vw;
 }
 
 .coffee-options-content-div{
     display: flex;justify-content: space-between;
-    font-size: 2vw;
 }
 .coffee-options-content-div p{
     color:brown;
@@ -366,7 +367,7 @@ textarea{
 }
 
 #footer-div1 i{
-    margin: 1vw;
+    margin: 2vw;
     font-size: 2vw;
     transition:transform 1s;
 }
@@ -384,10 +385,28 @@ textarea{
     padding: 1vw;
     color: white;
 }
-#copyright i{
-    margin-left: 1vw;
-    margin-right:1vw;
-}
 
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
 
