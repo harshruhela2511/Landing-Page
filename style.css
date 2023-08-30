@@ -117,14 +117,14 @@
 
 #about-content h1{
     font-family: sans-serif;
-    font-size: 2vw;
+    font-size: 3vw;
     margin:2vw;
     border-bottom: 2px solid black;
 }
 #about-content p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:2vw;
-    font-size: 1vw;
+    font-size: 2vw;
 }
 
 #coffee{
@@ -132,6 +132,7 @@
 }
 .coffee-div{
     display: flex;
+    flex-direction: column;
     padding: 2vw;
 }
 .coffee-options{
