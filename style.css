@@ -164,12 +164,12 @@ color: white;
 .coffee-options-content h1{
     font-family: sans-serif;
     margin: 1vw;
-    font-size: 3vw;
+    font-size: 5vw;
 }
 .coffee-options-content p{
     font-family:Arial, Helvetica, sans-serif;
     margin: 1vw;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .coffee-options-content-div{
@@ -275,8 +275,8 @@ form:hover {
 
 #contact>img{
     /* border: 2px solid black; */
-    width: 30vw;
-    height:35vw;
+    width: 10vw;
+    height:15vw;
     margin-top: 10vw;
 }
 #contact-section{
@@ -392,7 +392,7 @@ textarea{
   }
   
   @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .4}
     to {opacity: 1}
   }
 
