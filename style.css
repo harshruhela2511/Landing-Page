@@ -123,7 +123,7 @@
 }
 #about-content{
     /* border: 2px solid orange; */
-    overflow: scroll;
+    /* overflow: scroll; */
     height: 60vw;
 }
 #about-content p{
