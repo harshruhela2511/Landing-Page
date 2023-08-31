@@ -163,13 +163,13 @@ color: white;
 }
 .coffee-options-content h1{
     font-family: sans-serif;
-    margin: 1vw;
+    margin: 1.5vw;
     font-size: 5vw;
 }
 .coffee-options-content p{
     font-family:Arial, Helvetica, sans-serif;
-    margin: 1vw;
-    font-size: 3vw;
+    margin: 1.5vw;
+    font-size: 2vw;
 }
 
 .coffee-options-content-div{
@@ -179,6 +179,7 @@ color: white;
     color:brown;
 }
 .coffee-options img{
+    padding: 1vw;
     width: 20vw;
     height:20vw;
     filter: drop-shadow(0px 18px 15px black); 
