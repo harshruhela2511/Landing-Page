@@ -121,10 +121,16 @@
     margin:2vw;
     border-bottom: 2px solid black;
 }
+#about-content{
+    /* border: 2px solid orange; */
+    overflow: scroll;
+    height: 60vw;
+}
 #about-content p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:2vw;
     font-size: 2vw;
+    /* border: 2px solid black; */
 }
 
 #coffee{
