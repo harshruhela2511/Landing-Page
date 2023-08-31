@@ -260,12 +260,12 @@ color: orange;
 
 #contact{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-bottom: 2vw;
-    background-image: url(Images/background_contact.png);
+    /* background-image: url(Images/background_contact.png);
     background-size: 100%;
     background-position-y:bottom;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     /* border:2px solid black; */
 }
 
@@ -273,12 +273,13 @@ form:hover {
     box-shadow: 0px 0px 5px 2px black;
 }
 
-#contact>img{
-    /* border: 2px solid black; */
+/* #contact>img{
+    border: 2px solid black;
     width: 10vw;
     height:15vw;
     margin-top: 10vw;
-}
+} */
+
 #contact-section{
     width: max-content;
 /* margin-bottom:2vw; */
