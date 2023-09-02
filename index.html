@@ -232,7 +232,9 @@ black Coffee</h1>
         </footer>
 
        <script>
-        let slideIndex = 0;
+        var w = document.documentElement.clientWidth || window.innerWidth;
+        if (w < 800) {
+            let slideIndex = 0;
         showSlides();
 
             function showSlides() {
@@ -251,6 +253,8 @@ black Coffee</h1>
             dots[slideIndex-1].className += " active";
             setTimeout(showSlides, 2000); // Change image every 2 seconds
         }
+        } 
+        
 </script>
     </body>
 </html>
